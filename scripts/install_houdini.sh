@@ -19,10 +19,9 @@ tar -xzf houdini.tar.gz
 
 # delete data that is not needed
 rm -rf /opt/hou${HOUDINI_MAJOR}/*.tar.gz
-rm -rf /opt/hou${HOUDINI_MAJOR}/houdini
-rm -rf /opt/hou${HOUDINI_MAJOR}/qt
-rm -rf /opt/hou${HOUDINI_MAJOR}/lib
-rm -rf /opt/hou${HOUDINI_MAJOR}/bin
+rm -rf /opt/hou${HOUDINI_MAJOR}/houdini/*
+rm -rf /opt/hou${HOUDINI_MAJOR}/qt/*
+rm -rf /opt/hou${HOUDINI_MAJOR}/lib/*
 
 # delete original tarball
 rm -rf /opt/hou.tar.gz
